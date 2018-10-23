@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "./rtthread-stm32.elf",
+            "name": "windows",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "showDevDebugOutput": true,
+            "searchDir": [
+                "C:/ChibiStudio/tools/openocd/scripts/",
+            ],
+            "svdFile": "C:/Users/11952/.vscode/extensions/marus25.cortex-debug-0.1.21/data/STMicro/STM32F103xx.svd",
+            "v1": false,
+            "runToMain": true,
+            "configFiles": [
+                "C:/ChibiStudio/tools/openocd/scripts/interface/stlink.cfg",
+                "C:/ChibiStudio/tools/openocd/scripts/target/stm32f1x.cfg",
+                // "C:/ChibiStudio/tools/openocd/scripts/interface/stlink-v2.cfg",
+                // "C:/ChibiStudio/tools/openocd/scripts/target/stm32f1x_stlink.cfg",
+            ],
+        },
+    ]
+}

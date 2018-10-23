@@ -1,0 +1,1 @@
+arm-none-eabi-objcopy.exe ./rtthread-stm32.elf -O ihex rtthread.hex
